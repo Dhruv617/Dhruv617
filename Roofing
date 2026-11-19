@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summit Roofing & Exteriors | Roof Replacement, Repair & Inspections</title>
+  <meta name="description" content="Summit Roofing & Exteriors provides residential roof replacement, repair, inspections, asphalt shingle, metal roofing, and storm damage assessments. Request a free roof estimate today.">
+  <meta property="og:title" content="Summit Roofing & Exteriors | Protect Your Home. Trust Your Roof.">
+  <meta property="og:description" content="Professional residential roofing services. Free estimates, honest inspections, and quality workmanship. Call or request your free estimate online.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://www.summitroofing.example.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RoofingContractor",
+    "name": "Summit Roofing & Exteriors",
+    "description": "Residential roofing contractor specializing in roof replacement, repair, inspections, asphalt shingle roofing, metal roofing, and storm damage assessments.",
+    "url": "https://www.summitroofing.example.com/",
+    "telephone": "[BUSINESS PHONE]",
+    "email": "[BUSINESS EMAIL]",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[STREET ADDRESS]",
+      "addressLocality": "[CITY]",
+      "addressRegion": "[STATE]",
+      "postalCode": "[ZIP]",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "[SERVICE CITY 1, STATE]" },
+      { "@type": "City", "name": "[SERVICE CITY 2, STATE]" }
+    ],
+    "priceRange": "$$",
+    "openingHours": "Mo-Fr 08:00-18:00",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    "sameAs": [
+      "[FACEBOOK URL]",
+      "[GOOGLE BUSINESS PROFILE URL]"
+    ]
+  }
+  </script>
+  <style>
+    /* ---------- CSS VARIABLES ---------- */
+    :root {
+      --navy: #101F35;
+      --navy-light: #1a2f4d;
+      --orange: #F59E0B;
+      --orange-dark: #d97706;
+      --white: #FFFFFF;
+      --gray-50: #F8FAFC;
+      --gray-100: #F1F5F9;
+      --gray-200: #E2E8F0;
+      --gray-400: #94A3B8;
+      --gray-600: #475569;
+      --gray-800: #1E293B;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
+      --shadow-lg: 0 12px 40px rgba(0,0,0,0.14);
+      --radius: 12px;
+      --radius-sm: 8px;
+      --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+      --font-heading: 'Montserrat', 'Inter', sans-serif;
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ---------- RESET & BASE ---------- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: var(--font-body);
+      color: var(--gray-800);
+      background: var(--white);
+      line-height: 1.65;
+      font-size: 16px;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button { cursor: pointer; font-family: inherit; border: none; background: none; }
+    ul { list-style: none; }
+    .container { width: min(100% - 2rem, 1200px); margin-inline: auto; }
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      line-height: 1.15;
+      color: var(--navy);
+      letter-spacing: -0.02em;
+    }
+    h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 900; }
+    h2 { font-size: clamp(1.7rem, 3.5vw, 2.6rem); font-weight: 800; }
+    h3 { font-size: clamp(1.2rem, 2.2vw, 1.45rem); font-weight: 700; }
+    h4 { font-size: 1.05rem; font-weight: 700; }
+    p { max-width: 68ch; }
+
+    /* ---------- BUTTONS ---------- */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+      padding: 0.85rem 1.8rem; border-radius: 999px; font-weight: 700;
+      font-size: 0.95rem; letter-spacing: 0.01em; transition: var(--transition);
+      white-space: nowrap; border: 2px solid transparent; text-align: center;
+    }
+    .btn i { font-size: 1rem; }
+    .btn-primary {
+      background: var(--orange); color: var(--navy); border-color: var(--orange);
+      box-shadow: 0 4px 14px rgba(245,158,11,0.35);
+    }
+    .btn-primary:hover, .btn-primary:focus-visible {
+      background: var(--orange-dark); border-color: var(--orange-dark);
+      transform: translateY(-2px); box-shadow: 0 8px 24px rgba(245,158,11,0.45);
+    }
+    .btn-secondary {
+      background: transparent; color: var(--white); border-color: rgba(255,255,255,0.6);
+    }
+    .btn-secondary:hover, .btn-secondary:focus-visible {
+      background: rgba(255,255,255,0.12); border-color: var(--white);
+    }
+    .btn-outline {
+      background: transparent; color: var(--navy); border-color: var(--navy);
+    }
+    .btn-outline:hover, .btn-outline:focus-visible {
+      background: var(--navy); color: var(--white);
+    }
+    .btn-sm { padding: 0.6rem 1.25rem; font-size: 0.85rem; }
+    .btn-block { width: 100%; }
+
+    /* ---------- HEADER / NAV ---------- */
+    .top-bar {
+      background: var(--navy); color: var(--gray-200); font-size: 0.8rem;
+      padding: 0.4rem 0; text-align: center;
+    }
+    .top-bar a { color: var(--orange); font-weight: 600; }
+    .site-header {
+      position: sticky; top: 0; z-index: 1000;
+      background: rgba(16,31,53,0.97); backdrop-filter: blur(12px);
+      box-shadow: var(--shadow-md);
+      transition: var(--transition);
+    }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.75rem 0; gap: 1rem;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 0.6rem;
+      font-family: var(--font-heading); font-weight: 900; font-size: 1.25rem;
+      color: var(--white); letter-spacing: -0.02em; line-height: 1.1;
+    }
+    .logo-icon {
+      width: 40px; height: 40px; background: var(--orange);
+      border-radius: 10px; display: grid; place-items: center;
+      color: var(--navy); font-size: 1.2rem; flex-shrink: 0;
+    }
+    .logo span { display: block; font-size: 0.65rem; font-weight: 500; color: var(--gray-400); letter-spacing: 0.06em; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 0.25rem; }
+    .nav-links a {
+      color: var(--gray-200); font-size: 0.85rem; font-weight: 500;
+      padding: 0.45rem 0.7rem; border-radius: 6px; transition: var(--transition);
+      white-space: nowrap;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--white); background: rgba(255,255,255,0.08);
+    }
+    .nav-links a.active { color: var(--orange); }
+    .nav-cta { display: flex; align-items: center; gap: 0.6rem; }
+    .nav-phone {
+      display: flex; align-items: center; gap: 0.4rem; color: var(--white);
+      font-weight: 700; font-size: 0.9rem; white-space: nowrap;
+    }
+    .nav-phone i { color: var(--orange); }
+    .mobile-toggle {
+      display: none; color: var(--white); font-size: 1.4rem; padding: 0.4rem;
+      border-radius: 6px;
+    }
+    .mobile-toggle:hover { background: rgba(255,255,255,0.1); }
+
+    /* ---------- PAGE SECTIONS ---------- */
+    .page { display: none; animation: fadeIn 0.35s ease; }
+    .page.active { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      position: relative; min-height: 85vh; display: flex; align-items: center;
+      background: linear-gradient(135deg, rgba(16,31,53,0.88) 0%, rgba(16,31,53,0.6) 60%, rgba(16,31,53,0.3) 100%),
+                  url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: var(--white); padding: 4rem 0;
+    }
+    .hero-content { max-width: 720px; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.4);
+      color: var(--orange); padding: 0.35rem 1rem; border-radius: 999px;
+      font-size: 0.8rem; font-weight: 600; margin-bottom: 1.25rem;
+    }
+    .hero h1 { color: var(--white); margin-bottom: 1rem; }
+    .hero h1 em { color: var(--orange); font-style: normal; }
+    .hero p { font-size: clamp(1rem, 1.8vw, 1.2rem); color: rgba(255,255,255,0.85); margin-bottom: 1.75rem; max-width: 58ch; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-bottom: 2rem; }
+    .hero-trust { display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: 0.85rem; color: rgba(255,255,255,0.8); }
+    .hero-trust span { display: flex; align-items: center; gap: 0.4rem; }
+    .hero-trust i { color: var(--orange); }
+
+    /* ---------- SECTION ---------- */
+    .section { padding: 4.5rem 0; }
+    .section-alt { background: var(--gray-50); }
+    .section-dark { background: var(--navy); color: var(--white); }
+    .section-dark h2, .section-dark h3 { color: var(--white); }
+    .section-header { text-align: center; max-width: 720px; margin: 0 auto 2.5rem; }
+    .section-header p { margin: 0.6rem auto 0; color: var(--gray-600); }
+    .section-dark .section-header p { color: rgba(255,255,255,0.75); }
+    .eyebrow {
+      display: inline-block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--orange); margin-bottom: 0.6rem;
+    }
+
+    /* ---------- CARDS GRID ---------- */
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+    .card {
+      background: var(--white); border-radius: var(--radius); overflow: hidden;
+      box-shadow: var(--shadow-sm); border: 1px solid var(--gray-200);
+      transition: var(--transition); display: flex; flex-direction: column;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .card-img { aspect-ratio: 16/10; overflow: hidden; background: var(--gray-200); }
+    .card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .card:hover .card-img img { transform: scale(1.04); }
+    .card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
+    .card-body h3 { margin-bottom: 0.5rem; }
+    .card-body p { font-size: 0.9rem; color: var(--gray-600); flex: 1; margin-bottom: 1rem; }
+    .card-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-weight: 700; font-size: 0.85rem; color: var(--orange-dark);
+    }
+    .card-link:hover { gap: 0.6rem; }
+
+    /* ---------- FEATURES ---------- */
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; }
+    .feature-item { text-align: left; padding: 1.5rem; background: var(--white); border-radius: var(--radius-sm); border: 1px solid var(--gray-200); }
+    .feature-icon {
+      width: 48px; height: 48px; background: rgba(245,158,11,0.12); border-radius: 10px;
+      display: grid; place-items: center; color: var(--orange-dark); font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+    .feature-item h3 { font-size: 1.05rem; margin-bottom: 0.4rem; }
+    .feature-item p { font-size: 0.88rem; color: var(--gray-600); }
+
+    /* ---------- GALLERY ---------- */
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+    .gallery-item { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 4/3; background: var(--gray-200); }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-overlay {
+      position: absolute; inset: 0; background: linear-gradient(transparent 50%, rgba(16,31,53,0.9));
+      display: flex; flex-direction: column; justify-content: flex-end; padding: 1.25rem;
+      color: var(--white);
+    }
+    .gallery-overlay h4 { color: var(--white); font-size: 1rem; margin-bottom: 0.2rem; }
+    .gallery-overlay p { font-size: 0.8rem; color: rgba(255,255,255,0.8); margin: 0; }
+
+    /* ---------- REVIEWS PLACEHOLDER ---------- */
+    .review-placeholder {
+      background: var(--gray-50); border: 2px dashed var(--gray-200);
+      border-radius: var(--radius); padding: 2.5rem; text-align: center;
+      max-width: 720px; margin: 0 auto;
+    }
+    .review-placeholder i { font-size: 2rem; color: var(--orange); margin-bottom: 1rem; }
+    .review-placeholder p { color: var(--gray-600); font-size: 0.95rem; margin: 0 auto; }
+
+    /* ---------- SERVICE AREA ---------- */
+    .area-list { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; }
+    .area-tag {
+      background: var(--white); border: 1px solid var(--gray-200);
+      padding: 0.5rem 1.1rem; border-radius: 999px; font-size: 0.85rem;
+      font-weight: 500; color: var(--navy);
+    }
+    .area-note { font-size: 0.8rem; color: var(--gray-400); text-align: center; margin-top: 1rem; }
+
+    /* ---------- FAQ ---------- */
+    .faq-list { max-width: 800px; margin: 0 auto; }
+    .faq-item { border-bottom: 1px solid var(--gray-200); }
+    .faq-question {
+      width: 100%; display: flex; justify-content: space-between; align-items: center;
+      padding: 1.2rem 0; text-align: left; font-weight: 600; font-size: 1rem;
+      color: var(--navy); gap: 1rem;
+    }
+    .faq-question i { transition: transform 0.3s ease; color: var(--orange); font-size: 0.9rem; flex-shrink: 0; }
+    .faq-item.open .faq-question i { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0; overflow: hidden; transition: max-height 0.35s ease;
+    }
+    .faq-answer-inner { padding-bottom: 1.2rem; font-size: 0.92rem; color: var(--gray-600); }
+    .faq-item.open .faq-answer { max-height: 500px; }
+
+    /* ---------- FORM ---------- */
+    .form-wrap { max-width: 720px; margin: 0 auto; background: var(--white); border-radius: var(--radius); padding: 2rem; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200); }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.35rem; }
+    .form-group.full { grid-column: 1 / -1; }
+    .form-group label { font-size: 0.82rem; font-weight: 600; color: var(--navy); }
+    .form-group label .req { color: #dc2626; }
+    .form-group input, .form-group select, .form-group textarea {
+      padding: 0.7rem 0.9rem; border: 1.5px solid var(--gray-200);
+      border-radius: var(--radius-sm); font-family: inherit; font-size: 0.9rem;
+      background: var(--white); transition: var(--transition); width: 100%;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none; border-color: var(--orange); box-shadow: 0 0 0 3px rgba(245,158,11,0.15);
+    }
+    .form-group textarea { min-height: 110px; resize: vertical; }
+    .form-group .error-msg { font-size: 0.78rem; color: #dc2626; display: none; }
+    .form-group.invalid input, .form-group.invalid select, .form-group.invalid textarea { border-color: #dc2626; }
+    .form-group.invalid .error-msg { display: block; }
+    .form-note { font-size: 0.78rem; color: var(--gray-400); margin-top: 0.75rem; }
+    .form-status { margin-top: 1rem; padding: 1rem; border-radius: var(--radius-sm); font-size: 0.88rem; display: none; }
+    .form-status.success { display: block; background: #ecfdf5; border: 1px solid #a7f3d0; color: #065f46; }
+    .form-status.error { display: block; background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; }
+    .honeypot { position: absolute; left: -9999px; opacity: 0; height: 0; width: 0; }
+
+    /* ---------- CONTACT INFO ---------- */
+    .contact-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .contact-card { background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-sm); padding: 1.25rem; text-align: center; }
+    .contact-card i { font-size: 1.4rem; color: var(--orange-dark); margin-bottom: 0.5rem; }
+    .contact-card h4 { font-size: 0.9rem; margin-bottom: 0.2rem; }
+    .contact-card p, .contact-card a { font-size: 0.85rem; color: var(--gray-600); }
+
+    /* ---------- CTA BANNER ---------- */
+    .cta-banner {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+      color: var(--white); border-radius: var(--radius); padding: 2.5rem 2rem;
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .cta-banner::before {
+      content: ''; position: absolute; top: -50%; right: -10%; width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(245,158,11,0.15) 0%, transparent 70%); border-radius: 50%;
+    }
+    .cta-banner h2 { color: var(--white); margin-bottom: 0.6rem; position: relative; }
+    .cta-banner p { color: rgba(255,255,255,0.8); margin: 0 auto 1.5rem; position: relative; }
+    .cta-banner .hero-actions { justify-content: center; position: relative; }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer { background: var(--navy); color: var(--gray-400); padding: 3rem 0 1.5rem; font-size: 0.85rem; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+    .footer-brand .logo { margin-bottom: 0.75rem; }
+    .footer-brand p { font-size: 0.82rem; color: var(--gray-400); max-width: 300px; }
+    .footer-col h4 { color: var(--white); font-size: 0.85rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
+    .footer-col a { display: block; padding: 0.25rem 0; color: var(--gray-400); transition: var(--transition); }
+    .footer-col a:hover { color: var(--orange); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.25rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem; font-size: 0.78rem; }
+    .footer-legal { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .footer-legal a:hover { color: var(--orange); }
+
+    /* ---------- STICKY ESTIMATE ---------- */
+    .sticky-estimate {
+      position: fixed; bottom: 1.25rem; right: 1.25rem; z-index: 900;
+      display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-end;
+    }
+    .sticky-estimate .btn { box-shadow: var(--shadow-lg); }
+    .sticky-call { background: var(--white); color: var(--navy); border: 2px solid var(--gray-200); }
+    .sticky-call:hover { background: var(--gray-50); }
+
+    /* ---------- MOBILE ---------- */
+    @media (max-width: 960px) {
+      .nav-links {
+        display: none; position: absolute; top: 100%; left: 0; right: 0;
+        background: var(--navy); flex-direction: column; align-items: stretch;
+        padding: 0.75rem 1rem 1rem; gap: 0.15rem; box-shadow: var(--shadow-lg);
+        border-top: 1px solid rgba(255,255,255,0.08);
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a { padding: 0.65rem 0.75rem; font-size: 0.9rem; }
+      .mobile-toggle { display: block; }
+      .nav-phone span { display: none; }
+      .nav-cta .btn span { display: none; }
+      .nav-cta .btn { padding: 0.6rem 0.8rem; }
+      .hero { min-height: 75vh; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .form-grid { grid-template-columns: 1fr; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .hero-actions .btn { width: 100%; }
+      .hero-trust { gap: 0.75rem; font-size: 0.78rem; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .sticky-estimate { bottom: 0.75rem; right: 0.75rem; left: 0.75rem; flex-direction: row; justify-content: space-between; }
+      .sticky-estimate .btn { flex: 1; font-size: 0.8rem; padding: 0.7rem 0.5rem; }
+      .section { padding: 3rem 0; }
+      .form-wrap { padding: 1.25rem; }
+    }
+
+    /* ---------- REDUCED MOTION ---------- */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container">
+    <i class="fas fa-shield-halved"></i> Free, no-obligation roof estimates &nbsp;|&nbsp;
+    <a href="tel:[BUSINESS PHONE]" data-phone-link>[BUSINESS PHONE]</a>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="#home" class="logo" data-page-link="home" aria-label="Summit Roofing & Exteriors home">
+      <span class="logo-icon"><i class="fas fa-house-chimney"></i></span>
+      <span>Summit Roofing &amp; Exteriors
+        <span>Residential Roofing Contractor</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#home" data-page-link="home">Home</a>
+      <a href="#services" data-page-link="services">Services</a>
+      <a href="#about" data-page-link="about">About</a>
+      <a href="#gallery" data-page-link="gallery">Gallery</a>
+      <a href="#areas" data-page-link="areas">Service Areas</a>
+      <a href="#faq" data-page-link="faq">FAQ</a>
+      <a href="#contact" data-page-link="contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:[BUSINESS PHONE]" class="nav-phone" data-phone-link aria-label="Call us">
+        <i class="fas fa-phone"></i> <span>[BUSINESS PHONE]</span>
+      </a>
+      <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm">
+        <i class="fas fa-calculator"></i> <span>Free Estimate</span>
+      </a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main id="mainContent">
+
+  <!-- ========== HOME ========== -->
+  <section class="page active" id="page-home">
+    <!-- HERO -->
+    <div class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge"><i class="fas fa-star"></i> Residential Roofing Specialists</div>
+          <h1>Protect Your Home.<br><em>Trust Your Roof.</em></h1>
+          <p>Summit Roofing &amp; Exteriors delivers professional roof installation, repair, and replacement for homeowners, landlords, and property managers. Get a clear, honest assessment—and a free estimate with no pressure.</p>
+          <div class="hero-actions">
+            <a href="#contact" data-page-link="contact" class="btn btn-primary"><i class="fas fa-file-invoice"></i> Get a Free Roof Estimate</a>
+            <a href="tel:[BUSINESS PHONE]" class="btn btn-secondary" data-phone-link><i class="fas fa-phone"></i> Call Now</a>
+          </div>
+          <div class="hero-trust">
+            <span><i class="fas fa-check-circle"></i> Free inspections</span>
+            <span><i class="fas fa-check-circle"></i> Licensed &amp; insured <em style="font-style:normal;font-size:0.72rem;opacity:0.7;">[verify placeholder]</em></span>
+            <span><i class="fas fa-check-circle"></i> Written estimates</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES OVERVIEW -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">What We Do</span>
+          <h2>Complete Residential Roofing Services</h2>
+          <p>From a single missing shingle to a full roof replacement, we help you protect the biggest investment you own.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=600&q=80" alt="New asphalt shingle roof installation on a residential home" loading="lazy" width="600" height="375"></div>
+            <div class="card-body">
+              <h3>Roof Replacement</h3>
+              <p>Full tear-off and installation with premium underlayment, flashing, and ventilation—built for decades of protection.</p>
+              <a href="#services" data-page-link="services" class="card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80" alt="Roofing contractor repairing damaged shingles on a residential roof" loading="lazy" width="600" height="375"></div>
+            <div class="card-body">
+              <h3>Roof Repair</h3>
+              <p>Fast, reliable repairs for leaks, wind damage, missing shingles, flashing failures, and more.</p>
+              <a href="#services" data-page-link="services" class="card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=600&q=80" alt="Professional roof inspector examining residential roof condition" loading="lazy" width="600" height="375"></div>
+            <div class="card-body">
+              <h3>Roof Inspections</h3>
+              <p>Detailed, no-pressure inspections that document condition, identify risks, and help you plan ahead.</p>
+              <a href="#services" data-page-link="services" class="card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHY CHOOSE US -->
+    <div class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Why Homeowners Choose Us</span>
+          <h2>Built on Workmanship and Straight Answers</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-clipboard-check"></i></div>
+            <h3>Clear Written Estimates</h3>
+            <p>Know what is included before work begins—materials, labor, disposal, and permits are itemized.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-hard-hat"></i></div>
+            <h3>Quality Materials</h3>
+            <p>We install roofing systems from established manufacturers and follow manufacturer specifications.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+            <h3>Licensed &amp; Insured</h3>
+            <p>We maintain the required state and local credentials. <em>[License # placeholder—verify before publishing.]</em></p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+            <h3>No High-Pressure Sales</h3>
+            <p>You get an honest assessment and time to decide. No fake deadlines, no scare tactics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPANY INTRO -->
+    <div class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items:center;">
+          <div>
+            <span class="eyebrow">About Summit Roofing</span>
+            <h2>A Local Roofing Company You Can Reach</h2>
+            <p style="margin-top:0.75rem;">Summit Roofing &amp; Exteriors is a residential roofing contractor serving homeowners, landlords, and property managers. We focus on the details that keep water out and value in: proper decking inspection, correct flashing, balanced ventilation, and clean job sites.</p>
+            <p style="margin-top:0.75rem;">We believe a roof estimate should be understandable. Our process starts with a thorough inspection and a written scope—not a pressure pitch.</p>
+            <a href="#about" data-page-link="about" class="btn btn-outline" style="margin-top:1.25rem;">Learn Our Story <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80" alt="Residential home with a newly installed architectural shingle roof" style="border-radius:var(--radius);box-shadow:var(--shadow-md);" loading="lazy" width="800" height="533">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY PREVIEW -->
+    <div class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Recent Work</span>
+          <h2>Project Gallery</h2>
+          <p>A sample of residential roofing projects. Customer names and exact addresses are shared only with permission.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80" alt="Completed residential roof replacement with dark architectural shingles" loading="lazy" width="600" height="450">
+            <div class="gallery-overlay"><h4>Full Roof Replacement</h4><p>[City, State] — Architectural shingle system</p></div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=600&q=80" alt="Metal roofing installation on a residential home" loading="lazy" width="600" height="450">
+            <div class="gallery-overlay"><h4>Metal Roofing</h4><p>[City, State] — Standing seam installation</p></div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1590725140246-20acdee442be?auto=format&fit=crop&w=600&q=80" alt="Roof repair project showing repaired flashing and shingles" loading="lazy" width="600" height="450">
+            <div class="gallery-overlay"><h4>Storm Damage Repair</h4><p>[City, State] — Wind and hail restoration</p></div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:2rem;">
+          <a href="#gallery" data-page-link="gallery" class="btn btn-outline">View Full Gallery <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- REVIEWS PLACEHOLDER -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Customer Reviews</span>
+          <h2>Verified Reviews Only</h2>
+        </div>
+        <div class="review-placeholder">
+          <i class="fas fa-star"></i>
+          <h3 style="margin-bottom:0.5rem;">Verified Reviews Coming Soon</h3>
+          <p>This website is not yet connected to a verified review platform. To display genuine customer feedback, connect a Google Business Profile, BBB profile, or review API. <strong>No testimonials or ratings are displayed until verified.</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICE AREA PREVIEW -->
+    <div class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Where We Work</span>
+          <h2>Local Roofing Service Areas</h2>
+          <p>We serve homeowners and property managers in the communities listed below. Don’t see your city? Call to confirm availability.</p>
+        </div>
+        <div class="area-list">
+          <span class="area-tag">[City 1, State]</span>
+          <span class="area-tag">[City 2, State]</span>
+          <span class="area-tag">[City 3, State]</span>
+          <span class="area-tag">[City 4, State]</span>
+          <span class="area-tag">[City 5, State]</span>
+          <span class="area-tag">[ZIP Code Range]</span>
+        </div>
+        <p class="area-note">Service-area locations are editable placeholders. Replace with confirmed cities and ZIP codes before launch.</p>
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="#areas" data-page-link="areas" class="btn btn-outline">See All Service Areas <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ PREVIEW -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Common Questions</span>
+          <h2>Roofing FAQs</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How much does roof replacement cost? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">Cost depends on roof size, pitch, material, tear-off layers, decking condition, and local labor rates. Nationally, asphalt shingle replacements often fall in a broad range, but every roof is different. We provide a written, itemized estimate after inspection—not a one-size-fits-all price.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do you offer free roof inspections? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">Yes. We offer free, no-obligation roof inspections for homeowners and property managers. The inspection documents visible condition and helps you understand whether repair or replacement is appropriate.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do you handle storm damage? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">We assess wind and hail damage and provide detailed repair estimates. We can document damage for your insurance claim, but we do not act as a public adjuster, and we do not submit claims on your behalf. You choose your contractor.</div></div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:1.5rem;">
+          <a href="#faq" data-page-link="faq" class="btn btn-outline">Read All FAQs <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FINAL CTA -->
+    <div class="section section-alt">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Ready for a Straight Answer About Your Roof?</h2>
+          <p>Request a free estimate or call to speak with our team. No obligation, no pressure.</p>
+          <div class="hero-actions">
+            <a href="#contact" data-page-link="contact" class="btn btn-primary"><i class="fas fa-file-invoice"></i> Get a Free Roof Estimate</a>
+            <a href="tel:[BUSINESS PHONE]" class="btn btn-secondary" data-phone-link><i class="fas fa-phone"></i> Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="page" id="page-services">
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Roofing Services</span>
+          <h1>Professional Residential Roofing Services</h1>
+          <p>Every service starts with an inspection and a written scope. Choose a service below to learn what is involved.</p>
+        </div>
+
+        <!-- Service 1 -->
+        <div class="grid-2" style="margin-bottom:3rem;align-items:center;">
+          <div>
+            <img src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=800&q=80" alt="Residential roof replacement with new architectural shingles" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div>
+            <span class="eyebrow">Service 01</span>
+            <h2>Residential Roof Replacement</h2>
+            <p>When repair is no longer cost-effective, a full replacement restores protection and curb appeal. Our process includes tear-off, deck inspection, underlayment, flashing, ventilation review, and manufacturer-specified installation.</p>
+            <ul style="margin:1rem 0;display:grid;gap:0.4rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Full tear-off and disposal</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Decking inspection and repair</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Ice-and-water shield and synthetic underlayment</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> New flashing and ventilation as needed</li>
+            </ul>
+            <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="grid-2" style="margin-bottom:3rem;align-items:center;">
+          <div style="order:2;">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Roof repair specialist fixing damaged shingles" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div style="order:1;">
+            <span class="eyebrow">Service 02</span>
+            <h2>Roof Repair</h2>
+            <p>Not every roof needs replacement. We diagnose the source of leaks and damage, then recommend the most sensible repair. Common repairs include missing shingles, flashing failures, vent boots, ridge caps, and localized storm damage.</p>
+            <ul style="margin:1rem 0;display:grid;gap:0.4rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Leak diagnosis and repair</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Shingle and flashing replacement</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Storm-related damage repair</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Honest recommendation: repair vs. replace</li>
+            </ul>
+            <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="grid-2" style="margin-bottom:3rem;align-items:center;">
+          <div>
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80" alt="Roof inspector checking shingles and flashing" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div>
+            <span class="eyebrow">Service 03</span>
+            <h2>Roof Inspections</h2>
+            <p>A professional inspection documents the condition of your roof and helps you plan maintenance or replacement. We inspect shingles, flashing, valleys, penetrations, gutters, and visible attic conditions where accessible.</p>
+            <ul style="margin:1rem 0;display:grid;gap:0.4rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Free, no-obligation inspection</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Photo documentation</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Clear findings and next-step options</li>
+            </ul>
+            <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm"><i class="fas fa-calculator"></i> Request an Inspection</a>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="grid-2" style="margin-bottom:3rem;align-items:center;">
+          <div style="order:2;">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80" alt="Architectural asphalt shingle roof on a residential home" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div style="order:1;">
+            <span class="eyebrow">Service 04</span>
+            <h2>Asphalt Shingle Roofing</h2>
+            <p>Asphalt shingles remain the most common residential roofing material in the U.S. We install architectural and dimensional shingle systems with manufacturer-approved underlayment, flashing, and ventilation.</p>
+            <ul style="margin:1rem 0;display:grid;gap:0.4rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> 3-tab and architectural options</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Manufacturer warranty registration support</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Proper attic ventilation review</li>
+            </ul>
+            <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="grid-2" style="margin-bottom:3rem;align-items:center;">
+          <div>
+            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80" alt="Standing seam metal roofing on a residential home" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div>
+            <span class="eyebrow">Service 05</span>
+            <h2>Metal Roofing</h2>
+            <p>Metal roofing offers long service life and energy performance when installed correctly. We install standing seam and metal shingle systems with proper fastening, flashing, and thermal detailing.</p>
+            <ul style="margin:1rem 0;display:grid;gap:0.4rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Standing seam and metal shingle options</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Manufacturer finish warranties vary by product</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Proper panel layout and flashing details</li>
+            </ul>
+            <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="grid-2" style="margin-bottom:3rem;align-items:center;">
+          <div style="order:2;">
+            <img src="https://images.unsplash.com/photo-1590725140246-20acdee442be?auto=format&fit=crop&w=800&q=80" alt="Storm and hail damage assessment on a residential roof" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div style="order:1;">
+            <span class="eyebrow">Service 06</span>
+            <h2>Storm &amp; Hail Damage Assessments</h2>
+            <p>After a storm, you need documentation—not a sales pitch. We inspect for wind damage, hail impact marks, granule loss, dented metal, and compromised flashing. We provide a written assessment you can use when speaking with your insurer.</p>
+            <ul style="margin:1rem 0;display:grid;gap:0.4rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Date-of-loss documentation support</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Photo evidence and written scope</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> You file the claim—we do not act as a public adjuster</li>
+            </ul>
+            <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm"><i class="fas fa-calculator"></i> Request a Storm Assessment</a>
+          </div>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="grid-2" style="align-items:center;">
+          <div>
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Commercial flat roof on a low-slope building" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div>
+            <span class="eyebrow">Service 07</span>
+            <h2>Commercial Roofing</h2>
+            <p>We offer commercial roofing assessments and low-slope roofing services for property managers and building owners, subject to project scope and location. <em>[Confirm commercial services before publishing—remove this section if not offered.]</em></p>
+            <ul style="margin:1rem 0;display:grid;gap:0.4rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Flat and low-slope roof assessments</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Repair and replacement planning</li>
+              <li><i class="fas fa-check" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Property manager–friendly documentation</li>
+            </ul>
+            <a href="#contact" data-page-link="contact" class="btn btn-primary btn-sm"><i class="fas fa-calculator"></i> Request a Commercial Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICE CTA -->
+    <div class="section section-alt">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Not Sure Which Service You Need?</h2>
+          <p>Start with a free inspection. We will tell you what we see and what we recommend—without pressure.</p>
+          <div class="hero-actions">
+            <a href="#contact" data-page-link="contact" class="btn btn-primary"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+            <a href="tel:[BUSINESS PHONE]" class="btn btn-secondary" data-phone-link><i class="fas fa-phone"></i> Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="page" id="page-about">
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">About Us</span>
+          <h1>Roofing Built on Straight Answers</h1>
+          <p>Summit Roofing &amp; Exteriors is a residential roofing contractor focused on honest assessments, quality workmanship, and clear communication.</p>
+        </div>
+
+        <div class="grid-2" style="margin-bottom:3rem;align-items:center;">
+          <div>
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80" alt="Residential home with a well-maintained roof" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);" loading="lazy" width="800" height="533">
+          </div>
+          <div>
+            <h2>Our Story</h2>
+            <p style="margin-top:0.75rem;"><em>[Edit this section with the company's real story: founding year, founder names, background, and why the business was started. Do not publish unverified claims.]</em></p>
+            <p style="margin-top:0.75rem;">We started Summit Roofing &amp; Exteriors to give homeowners a roofing experience that feels straightforward: a real inspection, a written scope, a fair price, and a crew that respects the property.</p>
+            <p style="margin-top:0.75rem;">Today we work with homeowners, landlords, and property managers who want a roof they can stop worrying about.</p>
+          </div>
+        </div>
+
+        <div class="grid-3" style="margin-bottom:3rem;">
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+            <h3>Our Mission</h3>
+            <p>To protect homes with durable roofing systems and to make the process understandable for every customer.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-scale-balanced"></i></div>
+            <h3>Our Values</h3>
+            <p>Honesty, craftsmanship, accountability, and respect for your home and time.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-medal"></i></div>
+            <h3>Workmanship Standards</h3>
+            <p>We follow manufacturer installation requirements and local building codes. <em>[Add specific standards or certifications only if verified.]</em></p>
+          </div>
+        </div>
+
+        <div class="grid-2" style="margin-bottom:3rem;">
+          <div>
+            <h2>Credentials &amp; Insurance</h2>
+            <p style="margin-top:0.75rem;">Summit Roofing &amp; Exteriors maintains the licenses and insurance required to operate as a residential roofing contractor in the jurisdictions we serve.</p>
+            <ul style="margin-top:1rem;display:grid;gap:0.6rem;font-size:0.9rem;color:var(--gray-600);">
+              <li><i class="fas fa-id-card" style="color:var(--orange-dark);margin-right:0.5rem;"></i> State contractor license: <strong>[LICENSE #]</strong></li>
+              <li><i class="fas fa-id-card" style="color:var(--orange-dark);margin-right:0.5rem;"></i> Local registration: <strong>[MUNICIPAL REGISTRATION #]</strong></li>
+              <li><i class="fas fa-shield-halved" style="color:var(--orange-dark);margin-right:0.5rem;"></i> General liability insurance: <strong>[CARRIER / POLICY #]</strong></li>
+              <li><i class="fas fa-user-shield" style="color:var(--orange-dark);margin-right:0.5rem;"></i> Workers’ compensation: <strong>[CARRIER / POLICY #]</strong></li>
+              <li><i class="fas fa-certificate" style="color:var(--orange-dark);margin-right:0.5rem;"></i> Manufacturer credentials: <strong>[LIST ONLY VERIFIED PROGRAMS]</strong></li>
+            </ul>
+            <p style="margin-top:1rem;font-size:0.8rem;color:var(--gray-400);"><i class="fas fa-circle-exclamation"></i> All credential fields above are editable placeholders. Verify license numbers, insurance coverage, and manufacturer programs before publishing.</p>
+          </div>
+          <div>
+            <h2>Our Team</h2>
+            <p style="margin-top:0.75rem;">Meet the people who inspect, plan, and install your roof. <em>[Add real team photos and names only with permission.]</em></p>
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" alt="Roofing crew working safely on a residential roof" style="border-radius:var(--radius);box-shadow:var(--shadow-sm);margin-top:1rem;" loading="lazy" width="800" height="533">
+          </div>
+        </div>
+
+        <div class="feature-item" style="background:var(--gray-50);border-style:dashed;text-align:center;">
+          <h3>Commitment to Customer Satisfaction</h3>
+          <p style="margin:0.5rem auto 0;max-width:65ch;">We stand behind our work. If something is not right, we want to know about it and make it right. <em>[Add the company's actual satisfaction policy or warranty terms here—do not promise what the business has not confirmed.]</em></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-alt">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Have Questions About Our Company?</h2>
+          <p>Call us or request a free estimate. We are happy to answer questions before you commit to anything.</p>
+          <div class="hero-actions">
+            <a href="#contact" data-page-link="contact" class="btn btn-primary"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+            <a href="tel:[BUSINESS PHONE]" class="btn btn-secondary" data-phone-link><i class="fas fa-phone"></i> Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="page" id="page-gallery">
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Project Gallery</span>
+          <h1>Before &amp; After Roofing Projects</h1>
+          <p>Representative examples of residential roofing work. Exact locations are shown only where customers have approved publication.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80" alt="Completed full roof replacement with architectural shingles" loading="lazy" width="800" height="600">
+            <div class="gallery-overlay"><h4>Full Roof Replacement</h4><p>[City, State] — Architectural asphalt shingle system</p></div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80" alt="Standing seam metal roof installation on a residential home" loading="lazy" width="800" height="600">
+            <div class="gallery-overlay"><h4>Standing Seam Metal Roof</h4><p>[City, State] — Residential metal roofing</p></div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1590725140246-20acdee442be?auto=format&fit=crop&w=800&q=80" alt="Storm damage roof repair with replaced shingles and flashing" loading="lazy" width="800" height="600">
+            <div class="gallery-overlay"><h4>Storm Damage Repair</h4><p>[City, State] — Wind and hail restoration</p></div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=800&q=80" alt="New asphalt shingle roof on a single-family home" loading="lazy" width="800" height="600">
+            <div class="gallery-overlay"><h4>Asphalt Shingle Replacement</h4><p>[City, State] — Dimensional shingles</p></div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Roof repair project showing repaired flashing around a chimney" loading="lazy" width="800" height="600">
+            <div class="gallery-overlay"><h4>Chimney Flashing Repair</h4><p>[City, State] — Leak repair and flashing replacement</p></div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80" alt="Residential home with a completed roof replacement" loading="lazy" width="800" height="600">
+            <div class="gallery-overlay"><h4>Residential Roof Replacement</h4><p>[City, State] — Full tear-off and rebuild</p></div>
+          </div>
+        </div>
+        <p class="area-note">Project photos and descriptions are placeholders. Replace with real project images and approved customer locations before launch. Do not imply completed projects that have not occurred.</p>
+      </div>
+    </div>
+
+    <div class="section section-alt">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Want Your Roof to Look Like This?</h2>
+          <p>Request a free estimate and let’s talk about the right roofing system for your home.</p>
+          <div class="hero-actions">
+            <a href="#contact" data-page-link="contact" class="btn btn-primary"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+            <a href="tel:[BUSINESS PHONE]" class="btn btn-secondary" data-phone-link><i class="fas fa-phone"></i> Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICE AREAS ========== -->
+  <section class="page" id="page-areas">
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Service Areas</span>
+          <h1>Local Roofing Service Areas</h1>
+          <p>We serve homeowners, landlords, and property managers in the following communities. Service-area lists are editable placeholders—replace with confirmed cities and ZIP codes.</p>
+        </div>
+
+        <div class="grid-2" style="margin-bottom:2rem;">
+          <div class="feature-item">
+            <h3><i class="fas fa-map-marker-alt" style="color:var(--orange-dark);margin-right:0.4rem;"></i> Primary Service Cities</h3>
+            <div class="area-list" style="justify-content:flex-start;margin-top:0.75rem;">
+              <span class="area-tag">[City 1, State]</span>
+              <span class="area-tag">[City 2, State]</span>
+              <span class="area-tag">[City 3, State]</span>
+              <span class="area-tag">[City 4, State]</span>
+              <span class="area-tag">[City 5, State]</span>
+            </div>
+          </div>
+          <div class="feature-item">
+            <h3><i class="fas fa-map-pin" style="color:var(--orange-dark);margin-right:0.4rem;"></i> ZIP Codes Served</h3>
+            <div class="area-list" style="justify-content:flex-start;margin-top:0.75rem;">
+              <span class="area-tag">[ZIP 00000]</span>
+              <span class="area-tag">[ZIP 00000]</span>
+              <span class="area-tag">[ZIP 00000]</span>
+              <span class="area-tag">[ZIP 00000]</span>
+              <span class="area-tag">[ZIP 00000]</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-item" style="background:var(--gray-50);border-style:dashed;text-align:center;margin-bottom:2rem;">
+          <p style="margin:0 auto;max-width:70ch;"><i class="fas fa-circle-info" style="color:var(--orange-dark);margin-right:0.4rem;"></i> <strong>Important:</strong> Do not invent service locations. Replace every placeholder above with real cities and ZIP codes the business actually serves. Remove any location the business cannot confirm.</p>
+        </div>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <h4>Call for Local Availability</h4>
+            <p><a href="tel:[BUSINESS PHONE]" data-phone-link>[BUSINESS PHONE]</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h4>Email Us</h4>
+            <p><a href="mailto:[BUSINESS EMAIL]">[BUSINESS EMAIL]</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-clock"></i>
+            <h4>Hours</h4>
+            <p>[BUSINESS HOURS]</p>
+          </div>
+        </div>
+
+        <div style="text-align:center;">
+          <a href="#contact" data-page-link="contact" class="btn btn-primary"><i class="fas fa-calculator"></i> Get a Free Estimate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="page" id="page-contact">
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Free Estimate</span>
+          <h1>Request Your Free Roof Estimate</h1>
+          <p>Tell us about your roof. We will follow up to schedule an inspection and prepare a written estimate. This request is free and does not obligate you to purchase anything.</p>
+        </div>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <h4>Call</h4>
+            <p><a href="tel:[BUSINESS PHONE]" data-phone-link>[BUSINESS PHONE]</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <p><a href="mailto:[BUSINESS EMAIL]">[BUSINESS EMAIL]</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-location-dot"></i>
+            <h4>Office</h4>
+            <p>[STREET ADDRESS], [CITY, STATE ZIP]</p>
+          </div>
+        </div>
+
+        <div class="form-wrap">
+          <form id="estimateForm" novalidate>
+            <!-- Honeypot -->
+            <div class="honeypot" aria-hidden="true">
+              <label for="website">Website</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+            <input type="hidden" id="formTimestamp" name="formTimestamp" value="">
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="req">*</span></label>
+                <input type="text" id="fullName" name="fullName" autocomplete="name" required minlength="2" placeholder="Jane Smith">
+                <span class="error-msg">Please enter your full name.</span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number <span class="req">*</span></label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="(555) 123-4567">
+                <span class="error-msg">Please enter a valid phone number.</span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address <span class="req">*</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" required placeholder="jane@example.com">
+                <span class="error-msg">Please enter a valid email address.</span>
+              </div>
+              <div class="form-group">
+                <label for="zip">Property ZIP Code <span class="req">*</span></label>
+                <input type="text" id="zip" name="zip" inputmode="numeric" autocomplete="postal-code" required pattern="[0-9]{5}" placeholder="00000">
+                <span class="error-msg">Please enter a 5-digit ZIP code.</span>
+              </div>
+              <div class="form-group full">
+                <label for="address">Property Address <span style="font-weight:400;color:var(--gray-400);">(optional)</span></label>
+                <input type="text" id="address" name="address" autocomplete="street-address" placeholder="123 Main St">
+              </div>
+              <div class="form-group">
+                <label for="service">Roofing Service Required <span class="req">*</span></label>
+                <select id="service" name="service" required>
+                  <option value="">Select a service</option>
+                  <option value="replacement">Roof Replacement</option>
+                  <option value="repair">Roof Repair</option>
+                  <option value="inspection">Roof Inspection</option>
+                  <option value="asphalt">Asphalt Shingle Roofing</option>
+                  <option value="metal">Metal Roofing</option>
+                  <option value="storm">Storm / Hail Damage Assessment</option>
+                  <option value="commercial">Commercial Roofing</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+                <span class="error-msg">Please select a service.</span>
+              </div>
+              <div class="form-group">
+                <label for="contactMethod">Preferred Contact Method <span class="req">*</span></label>
+                <select id="contactMethod" name="contactMethod" required>
+                  <option value="">Select one</option>
+                  <option value="phone">Phone</option>
+                  <option value="email">Email</option>
+                  <option value="text">Text</option>
+                </select>
+                <span class="error-msg">Please choose a contact method.</span>
+              </div>
+              <div class="form-group full">
+                <label for="description">Project Description <span class="req">*</span></label>
+                <textarea id="description" name="description" required minlength="10" placeholder="Briefly describe the issue, roof age, or what you would like inspected."></textarea>
+                <span class="error-msg">Please provide at least 10 characters.</span>
+              </div>
+              <div class="form-group full">
+                <label for="photo">Photo Upload <span style="font-weight:400;color:var(--gray-400);">(optional)</span></label>
+                <input type="file" id="photo" name="photo" accept="image/*" style="padding:0.5rem;border:1.5px dashed var(--gray-200);border-radius:var(--radius-sm);">
+                <span class="form-note">If photo upload is not supported by your form handler, remove this field or use a third-party upload service.</span>
+              </div>
+            </div>
+
+            <div style="margin-top:1.25rem;">
+              <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i> Submit Free Estimate Request</button>
+            </div>
+            <p class="form-note">By submitting, you agree to be contacted about your roofing request. This form does not charge you and is not a binding contract. Review our <a href="#privacy" data-page-link="privacy" style="color:var(--orange-dark);">Privacy Policy</a>.</p>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+            <div id="integrationNote" style="display:none;margin-top:1rem;padding:1rem;background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-sm);font-size:0.82rem;color:#92400e;">
+              <strong><i class="fas fa-plug"></i> Integration required:</strong> This form is not connected to a live email or CRM endpoint. Before launch, connect a form handler (e.g., Formspree, Netlify Forms, HubSpot, Salesforce, or your CRM’s API). Until then, submissions are validated in the browser only and are <strong>not delivered</strong>. Do not display a fake success message.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="page" id="page-faq">
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Frequently Asked Questions</span>
+          <h1>Roofing Questions, Answered Honestly</h1>
+          <p>These answers are general information, not a promise of specific pricing, warranty terms, or insurance outcomes. Your written estimate controls.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How much does roof replacement cost? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">Cost depends on roof size, pitch, material, number of tear-off layers, decking condition, flashing details, ventilation, permits, and local labor rates. National averages vary widely: many asphalt shingle replacements fall in the range of roughly $8,500 to $16,000 for a typical single-family home, with some projects lower and some higher. Metal roofing typically costs more. We provide a written, itemized estimate after inspecting your roof—not a phone quote based on guessing.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">How long does roof installation take? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">For a standard asphalt shingle roof, most residential replacements take about 1 to 3 days on site, assuming good weather and a single-layer tear-off. Metal roofing often takes 2 to 5 days, and standing seam may take 3 to 7 days depending on complexity. Larger roofs, steep pitches, multiple layers, or decking repairs add time. Your written scope will include an expected schedule.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">When should I replace my roof? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">Age alone is not the only factor. Signs that warrant an inspection include missing or curling shingles, granules in gutters, visible flashing damage, ceiling stains, attic moisture, sagging, and repeated leaks. Asphalt shingles often last 15 to 40 years depending on product, climate, ventilation, and maintenance. A professional inspection can tell you whether repair or replacement makes more sense.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do you offer free roof inspections? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">Yes. We offer free, no-obligation roof inspections for homeowners and property managers. The inspection documents visible conditions and helps you understand options. It does not obligate you to hire us.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do you handle storm damage? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">We assess wind and hail damage and provide detailed repair or replacement estimates. We can document damage and provide a written scope you can share with your insurer. We do not act as a public adjuster, we do not submit insurance claims on your behalf, and we do not guarantee any insurance outcome. You choose your contractor and file your own claim.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">What roofing materials do you install? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">We install asphalt shingle systems (3-tab and architectural), metal roofing (standing seam and metal shingles), and low-slope commercial systems where offered. Material availability varies by region and project. Manufacturer warranties vary by product and installation requirements. Ask for the specific product data sheet and warranty terms in your estimate.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Are financing options available? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner"><em>[Business-specific placeholder.]</em> Financing is not promised here. If the business offers financing, replace this text with the actual program details, lender name, and terms. If financing is not offered, state that clearly.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">What should I check before hiring a roofing contractor? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">Verify the contractor’s license and insurance where required by your state or municipality. Ask for a written contract that includes scope, materials, payment schedule, and cancellation terms. Be cautious of high-pressure “now-or-never” offers, demands for large cash deposits, or contractors who offer to “handle” your insurance claim for you. The FTC’s Cooling-Off Rule gives you three business days to cancel certain door-to-door sales of $25 or more, and many states have additional protections.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do you offer warranties? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer"><div class="faq-answer-inner">Manufacturer material warranties vary by product and are issued by the manufacturer, not by us. Workmanship warranty terms, if offered, must be stated in writing in your contract. <em>[Insert the business’s actual workmanship warranty only after it has been confirmed and reviewed by legal counsel.]</em> We do not promise warranty coverage that has not been confirmed in writing.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRIVACY ========== -->
+  <section class="page" id="page-privacy">
+    <div class="section">
+      <div class="container" style="max-width:840px;">
+        <span class="eyebrow">Legal</span>
+        <h1>Privacy Policy</h1>
+        <p style="color:var(--gray-400);font-size:0.85rem;margin-top:0.4rem;">Last updated: [DATE]</p>
+
+        <div style="margin-top:2rem;display:grid;gap:1.5rem;">
+          <div>
+            <h3>1. Scope</h3>
+            <p>This Privacy Policy describes how Summit Roofing &amp; Exteriors (“we,” “us,” or “our”) collects, uses, and shares personal information when you visit this website, submit a form, call us, or otherwise interact with us. <em>[Confirm business legal name and entity type with counsel.]</em></p>
+          </div>
+          <div>
+            <h3>2. Information We Collect</h3>
+            <p>We may collect information you provide directly, such as your name, phone number, email address, property ZIP code, property address, roofing service requested, project description, preferred contact method, and any photos you upload. We may also collect limited technical information automatically, such as browser type, device type, and pages visited, if analytics tools are enabled. <em>[List actual analytics/cookies only if used.]</em></p>
+          </div>
+          <div>
+            <h3>3. How We Use Information</h3>
+            <p>We use the information to respond to estimate requests, schedule inspections, communicate about projects, provide services, improve our website, and comply with legal obligations. We do not sell your personal information. <em>[Confirm no sale; update if the business uses data brokerage or cross-context behavioral advertising.]</em></p>
+          </div>
+          <div>
+            <h3>4. Sharing</h3>
+            <p>We may share information with service providers that help us operate the website or business (for example, form-handling or CRM providers), with contractors or crew members who need the information to perform work, and when required by law. We require service providers to protect personal information consistent with applicable law. <em>[List categories of actual vendors once connected.]</em></p>
+          </div>
+          <div>
+            <h3>5. Cookies and Analytics</h3>
+            <p>This website may use essential cookies for basic functionality. If analytics or advertising cookies are added, this section must be updated and, where required, a consent mechanism must be implemented. <em>[Do not claim analytics are active until they are actually configured.]</em></p>
+          </div>
+          <div>
+            <h3>6. Data Retention</h3>
+            <p>We retain personal information for as long as reasonably necessary to fulfill the purposes described in this policy, including recordkeeping, warranty administration, and legal compliance. <em>[Define actual retention periods with counsel.]</em></p>
+          </div>
+          <div>
+            <h3>7. Security</h3>
+            <p>We use reasonable administrative, technical, and physical safeguards designed to protect personal information. No method of transmission or storage is completely secure. <em>[Describe actual safeguards if required by state law.]</em></p>
+          </div>
+          <div>
+            <h3>8. Your Rights</h3>
+            <p>Depending on your state of residence, you may have rights to access, correct, delete, or opt out of certain processing of personal information. California residents may have rights under the CCPA/CPRA, including the right to know, delete, correct, and opt out of sale/sharing. <em>[If the business meets CCPA thresholds, add a “Do Not Sell or Share My Personal Information” link and a Notice at Collection. Confirm applicability with counsel.]</em> To exercise a right, contact us at <a href="mailto:[BUSINESS EMAIL]" style="color:var(--orange-dark);">[BUSINESS EMAIL]</a>.</p>
+          </div>
+          <div>
+            <h3>9. Children’s Privacy</h3>
+            <p>This website is not directed to children under 13, and we do not knowingly collect personal information from children under 13.</p>
+          </div>
+          <div>
+            <h3>10. Changes</h3>
+            <p>We may update this policy from time to time. The “Last updated” date will reflect the most recent revision.</p>
+          </div>
+          <div>
+            <h3>11. Contact</h3>
+            <p>Summit Roofing &amp; Exteriors<br>[STREET ADDRESS]<br>[CITY, STATE ZIP]<br>Email: <a href="mailto:[BUSINESS EMAIL]" style="color:var(--orange-dark);">[BUSINESS EMAIL]</a><br>Phone: <a href="tel:[BUSINESS PHONE]" data-phone-link style="color:var(--orange-dark);">[BUSINESS PHONE]</a></p>
+          </div>
+          <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-sm);padding:1rem;font-size:0.85rem;color:#92400e;">
+            <strong><i class="fas fa-scale-balanced"></i> Legal review required:</strong> This privacy policy is a starting template, not legal advice. State-specific requirements (including California CCPA/CPRA, Colorado, Connecticut, Utah, Virginia, and others) and industry-specific rules should be reviewed by a licensed attorney before publication.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TERMS ========== -->
+  <section class="page" id="page-terms">
+    <div class="section">
+      <div class="container" style="max-width:840px;">
+        <span class="eyebrow">Legal</span>
+        <h1>Terms of Use</h1>
+        <p style="color:var(--gray-400);font-size:0.85rem;margin-top:0.4rem;">Last updated: [DATE]</p>
+
+        <div style="margin-top:2rem;display:grid;gap:1.5rem;">
+          <div>
+            <h3>1. Acceptance</h3>
+            <p>By using this website, you agree to these Terms of Use. If you do not agree, do not use the site. <em>[Confirm with counsel.]</em></p>
+          </div>
+          <div>
+            <h3>2. Website Content</h3>
+            <p>Content is provided for general information. It is not a binding offer, a guaranteed price, or a promise of specific results. Roofing requires an individual inspection and written estimate. <em>[Do not publish fixed-price checkout products for roofing work.]</em></p>
+          </div>
+          <div>
+            <h3>3. Estimates and Contracts</h3>
+            <p>Estimate requests submitted through this website are free and do not create a contract. Any roofing work must be authorized by a separate written agreement signed by both parties. The written agreement controls scope, price, payment schedule, and warranty terms.</p>
+          </div>
+          <div>
+            <h3>4. Deposits and Payments</h3>
+            <p>Deposit and payment terms vary by project and state law. Some states limit deposits or require escrow. <em>[Insert the business’s actual deposit policy only after legal review. Do not imply a uniform deposit rule across all states.]</em></p>
+          </div>
+          <div>
+            <h3>5. Cancellation Rights</h3>
+            <p>Under the FTC’s Cooling-Off Rule (16 CFR Part 429), for certain door-to-door sales of $25 or more made at your home, you may have the right to cancel within three business days. Many states provide additional cancellation rights. Your contract should include any required cancellation notice. <em>[Include the exact notice required by your state and the FTC where applicable.]</em></p>
+          </div>
+          <div>
+            <h3>6. Insurance Claims</h3>
+            <p>We are a roofing contractor, not a public adjuster or insurance company. We do not submit insurance claims on your behalf and do not guarantee claim approval, coverage, or settlement amounts. You are responsible for filing your own claim and communicating with your insurer.</p>
+          </div>
+          <div>
+            <h3>7. Limitation of Liability</h3>
+            <p>To the maximum extent permitted by law, Summit Roofing &amp; Exteriors is not liable for indirect, incidental, or consequential damages arising from use of this website. <em>[Have counsel review limitations for enforceability in your state.]</em></p>
+          </div>
+          <div>
+            <h3>8. Governing Law</h3>
+            <p>These terms are governed by the laws of the State of <strong>[STATE]</strong>, without regard to conflict-of-law principles. <em>[Confirm with counsel.]</em></p>
+          </div>
+          <div>
+            <h3>9. Contact</h3>
+            <p>Summit Roofing &amp; Exteriors<br>[STREET ADDRESS]<br>[CITY, STATE ZIP]<br>Email: <a href="mailto:[BUSINESS EMAIL]" style="color:var(--orange-dark);">[BUSINESS EMAIL]</a><br>Phone: <a href="tel:[BUSINESS PHONE]" data-phone-link style="color:var(--orange-dark);">[BUSINESS PHONE]</a></p>
+          </div>
+          <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:var(--radius-sm);padding:1rem;font-size:0.85rem;color:#92400e;">
+            <strong><i class="fas fa-scale-balanced"></i> Legal review required:</strong> These terms are a starting template, not legal advice. State-specific contracting, deposit, cancellation, and warranty rules vary. Have a licensed attorney review before launch.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" data-page-link="home" class="logo">
+          <span class="logo-icon"><i class="fas fa-house-chimney"></i></span>
+          <span>Summit Roofing &amp; Exteriors <span>Residential Roofing Contractor</span></span>
+        </a>
+        <p>Protecting homes with honest assessments, quality materials, and professional workmanship. Free estimates for homeowners and property managers.</p>
+        <p style="margin-top:0.75rem;font-size:0.78rem;color:var(--gray-400);">License: [LICENSE #] | Insured: [VERIFY]</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services" data-page-link="services">Roof Replacement</a>
+        <a href="#services" data-page-link="services">Roof Repair</a>
+        <a href="#services" data-page-link="services">Roof Inspections</a>
+        <a href="#services" data-page-link="services">Asphalt Shingles</a>
+        <a href="#services" data-page-link="services">Metal Roofing</a>
+        <a href="#services" data-page-link="services">Storm Damage</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about" data-page-link="about">About Us</a>
+        <a href="#gallery" data-page-link="gallery">Project Gallery</a>
+        <a href="#areas" data-page-link="areas">Service Areas</a>
+        <a href="#faq" data-page-link="faq">FAQ</a>
+        <a href="#contact" data-page-link="contact">Free Estimate</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:[BUSINESS PHONE]" data-phone-link><i class="fas fa-phone" style="margin-right:0.4rem;"></i> [BUSINESS PHONE]</a>
+        <a href="mailto:[BUSINESS EMAIL]"><i class="fas fa-envelope" style="margin-right:0.4rem;"></i> [BUSINESS EMAIL]</a>
+        <a href="#areas" data-page-link="areas"><i class="fas fa-location-dot" style="margin-right:0.4rem;"></i> [CITY, STATE]</a>
+        <a href="#contact" data-page-link="contact"><i class="fas fa-clock" style="margin-right:0.4rem;"></i> [BUSINESS HOURS]</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Summit Roofing &amp; Exteriors. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#privacy" data-page-link="privacy">Privacy Policy</a>
+        <a href="#terms" data-page-link="terms">Terms of Use</a>
+        <a href="#contact" data-page-link="contact">Accessibility</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- STICKY ESTIMATE -->
+<div class="sticky-estimate">
+  <a href="tel:[BUSINESS PHONE]" class="btn sticky-call" data-phone-link aria-label="Call now">
+    <i class="fas fa-phone"></i> Call
+  </a>
+  <a href="#contact" data-page-link="contact" class="btn btn-primary">
+    <i class="fas fa-calculator"></i> Free Estimate
+  </a>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  /* ---------- PAGE ROUTING ---------- */
+  const pages = document.querySelectorAll('.page');
+  const pageLinks = document.querySelectorAll('[data-page-link]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  function showPage(pageId) {
+    const target = document.getElementById('page-' + pageId);
+    if (!target) return;
+    pages.forEach(p => p.classList.remove('active'));
+    target.classList.add('active');
+    navLinks.forEach(a => {
+      a.classList.toggle('active', a.getAttribute('data-page-link') === pageId);
+    });
+    // Close mobile nav
+    document.getElementById('navLinks').classList.remove('open');
+    document.getElementById('mobileToggle').setAttribute('aria-expanded', 'false');
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function handleHash() {
+    const hash = window.location.hash.replace('#', '') || 'home';
+    showPage(hash);
+  }
+
+  pageLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      const pageId = this.getAttribute('data-page-link');
+      if (!pageId) return;
+      e.preventDefault();
+      window.location.hash = pageId;
+      showPage(pageId);
+    });
+  });
+
+  window.addEventListener('hashchange', handleHash);
+
+  /* ---------- MOBILE NAV ---------- */
+  const mobileToggle = document.getElementById('mobileToggle');
+  const navLinksEl = document.getElementById('navLinks');
+  mobileToggle.addEventListener('click', function() {
+    const isOpen = navLinksEl.classList.toggle('open');
+    this.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  /* ---------- FAQ ACCORDION ---------- */
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const item = this.parentElement;
+      const isOpen = item.classList.contains('open');
+      // Close others
+      document.querySelectorAll('.faq-item.open').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        this.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  /* ---------- FORM VALIDATION & SPAM PROTECTION ---------- */
+  const form = document.getElementById('estimateForm');
+  const formStatus = document.getElementById('formStatus');
+  const integrationNote = document.getElementById('integrationNote');
+  const timestampField = document.getElementById('formTimestamp');
+
+  // Set timestamp on page load
+  if (timestampField) timestampField.value = Date.now();
+
+  function setError(group, message) {
+    group.classList.add('invalid');
+    const msg = group.querySelector('.error-msg');
+    if (msg) msg.textContent = message;
+  }
+
+  function clearError(group) {
+    group.classList.remove('invalid');
+  }
+
+  function validateForm() {
+    let valid = true;
+    const groups = form.querySelectorAll('.form-group');
+
+    groups.forEach(group => {
+      const input = group.querySelector('input, select, textarea');
+      if (!input) return;
+      clearError(group);
+
+      if (input.hasAttribute('required') && !input.value.trim()) {
+        setError(group, 'This field is required.');
+        valid = false;
+        return;
+      }
+
+      if (input.type === 'email' && input.value.trim()) {
+        const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRe.test(input.value.trim())) {
+          setError(group, 'Please enter a valid email address.');
+          valid = false;
+        }
+      }
+
+      if (input.id === 'phone' && input.value.trim()) {
+        const digits = input.value.replace(/\D/g, '');
+        if (digits.length < 10) {
+          setError(group, 'Please enter a phone number with at least 10 digits.');
+          valid = false;
+        }
+      }
+
+      if (input.id === 'zip' && input.value.trim()) {
+        if (!/^\d{5}$/.test(input.value.trim())) {
+          setError(group, 'Please enter a 5-digit ZIP code.');
+          valid = false;
+        }
+      }
+
+      if (input.id === 'description' && input.value.trim() && input.value.trim().length < 10) {
+        setError(group, 'Please provide at least 10 characters.');
+        valid = false;
+      }
+    });
+
+    return valid;
+  }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    // Honeypot check
+    const honeypot = document.getElementById('website');
+    if (honeypot && honeypot.value.trim() !== '') {
+      // Silent fail for bots
+      formStatus.className = 'form-status error';
+      formStatus.textContent = 'Submission blocked.';
+      formStatus.style.display = 'block';
+      return;
+    }
+
+    // Time-based spam check (minimum 3 seconds to fill)
+    const timestamp = parseInt(timestampField.value, 10);
+    if (timestamp && Date.now() - timestamp < 3000) {
+      formStatus.className = 'form-status error';
+      formStatus.textContent = 'Please take a moment to review your information before submitting.';
+      formStatus.style.display = 'block';
+      return;
+    }
+
+    if (!validateForm()) {
+      formStatus.className = 'form-status error';
+      formStatus.textContent = 'Please correct the highlighted fields and try again.';
+      formStatus.style.display = 'block';
+      const firstInvalid = form.querySelector('.form-group.invalid input, .form-group.invalid select, .form-group.invalid textarea');
+      if (firstInvalid) firstInvalid.focus();
+      return;
+    }
+
+    // NO BACKEND CONNECTED — do not fake success.
+    formStatus.className = 'form-status error';
+    formStatus.innerHTML = '<strong><i class="fas fa-triangle-exclamation"></i> Form not yet connected.</strong> Your information passed local validation, but this website does not have a live email/CRM endpoint. No submission was sent. Connect a form handler before collecting leads.';
+    formStatus.style.display = 'block';
+    integrationNote.style.display = 'block';
+    formStatus.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  /* ---------- FOOTER YEAR ---------- */
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* ---------- PHONE PLACEHOLDER SAFETY ---------- */
+  // Prevent tel: links from dialing literal placeholder text
+  document.querySelectorAll('[data-phone-link]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href && href.includes('[BUSINESS PHONE]')) {
+        e.preventDefault();
+        alert('Phone number placeholder. Replace [BUSINESS PHONE] with the real business number before launch.');
+      }
+    });
+  });
+
+  /* ---------- INITIAL PAGE ---------- */
+  handleHash();
+
+})();
+</script>
+</body>
+</html>
